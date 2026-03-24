@@ -1,0 +1,333 @@
+[
+  {
+    "title": "\ud83d\udcd8 Lesson 01 \u2013 AWS Certified Cloud Practitioner (CLF-C02)",
+    "content": "# \ud83d\udcd8 Lesson 01 \u2013 AWS Certified Cloud Practitioner (CLF-C02)\n## Introduction to the Exam\n\n---\n\n## \ud83c\udfaf What Is This Certification?\n\nThe **AWS Certified Cloud Practitioner (CLF-C02)** is an **entry-level** AWS certification designed for anyone who wants to demonstrate a foundational understanding of the AWS Cloud \u2014 regardless of their technical background or job role.\n\nIt is ideal for:\n- Beginners starting a cloud career\n- Business professionals working alongside cloud teams\n- Students learning cloud fundamentals\n- Non-technical staff who interact with AWS services\n\n> **Key principle:** You do NOT need to be a developer or cloud architect to pass this exam.\n\n---\n\n## \ud83d\udccb Exam at a Glance\n\n| Detail | Info |\n|---|---|\n| **Exam Code** | CLF-C02 |\n| **Level** | Foundational |\n| **Duration** | 90 minutes |\n| **Question Types** | Multiple Choice, Multiple Response |\n| **Total Questions** | 65 (50 scored + 15 unscored) |\n| **Passing Score** | 700 out of 1,000 |\n| **Cost** | $100 USD |\n| **Validity** | 3 years |\n| **Available** | In-person (Pearson VUE / PSI) or Online Proctored |\n\n---\n\n## \ud83d\udcdd Question Types Explained\n\n### Multiple Choice\n- **1 correct answer** out of 4 options\n- The 3 wrong answers are called **\"distractors\"** \u2014 they are designed to look plausible\n\n### Multiple Response\n- **2 or more correct answers** out of 5+ options\n- You must select ALL correct answers to get credit\n- Partial credit is NOT given\n\n> \u26a0\ufe0f **Important:** Unanswered questions count as WRONG. There is no penalty for guessing, so always select an answer \u2014 never leave a question blank.\n\n---\n\n## \ud83d\udcca Exam Domain Breakdown\n\nThe exam is divided into **4 content domains**, each with a different weight:\n\n| Domain | Topic | Weight |\n|---|---|---|\n| **Domain 1** | Cloud Concepts | **24%** |\n| **Domain 2** | Security and Compliance | **30%** |\n| **Domain 3** | Cloud Technology and Services | **34%** |\n| **Domain 4** | Billing, Pricing, and Support | **12%** |\n\n> \ud83d\udca1 **Domain 3 (Cloud Technology and Services)** is the largest section \u2014 focus your study here!\n> **Domain 2 (Security)** is the second-largest \u2014 understanding the Shared Responsibility Model is critical.\n\n---\n\n## \ud83c\udfc6 What Skills Does This Exam Validate?\n\nAccording to AWS, a passing candidate can:\n\n1. \u2705 **Explain the value of the AWS Cloud** \u2014 Why use cloud? What are the benefits?\n2. \u2705 **Understand the AWS Shared Responsibility Model** \u2014 What does AWS manage vs. what do YOU manage?\n3. \u2705 **Understand the AWS Well-Architected Framework** \u2014 The 6 pillars of a well-designed AWS solution\n4. \u2705 **Understand security best practices** \u2014 IAM, encryption, MFA, etc.\n5. \u2705 **Understand AWS Cloud costs, economics, and billing** \u2014 Pay-as-you-go model, pricing calculators\n6. \u2705 **Describe core AWS services** \u2014 Compute, Storage, Network, Database\n7. \u2705 **Identify AWS services for common use cases** \u2014 Which service to use for which problem\n\n---\n\n## \ud83c\udf93 Who Is the Target Candidate?\n\nAWS recommends candidates have:\n- Up to **6 months** of exposure to AWS Cloud design, implementation, or operations\n- Basic understanding of IT concepts (not deep technical expertise)\n\n### What is OUT of scope for this exam:\n- Writing code / programming\n- Designing complex cloud architectures\n- Troubleshooting production issues\n- Load and performance testing\n\n---\n\n## \ud83d\udcc8 Scoring Model\n\n- Scores range from **100 to 1,000** (scaled)\n- Minimum passing score: **700**\n- The exam uses a **compensatory scoring model** \u2014 you do NOT need to pass each domain separately; you just need to pass the overall exam\n- Your score report will show performance by domain to highlight strengths and weaknesses\n\n---\n\n## \ud83d\uddc2\ufe0f Study Roadmap for This Course\n\nHere is what you'll be learning throughout this course:\n\n| # | Lesson |\n|---|---|\n| 01 | Introduction (this lesson) |\n| 02 | What is Cloud Computing? |\n| 03 | What is Virtualization? |\n| 04 | Public, Private, and Hybrid Cloud Models |\n| 05 | SaaS, PaaS, IaaS |\n| 06 | AWS Design Principles |\n| 07 | Scaling Methods |\n| 08 | Coupling Methods |\n| 09 | Regions, Availability Zones, and Edge Locations |\n| 10 | AWS Edge Locations |\n| 11 | AWS Management Solutions |\n| 12 | AWS Configuration Management |\n| 13 | AWS Access Methods |\n| 14 | AWS Simple Storage Service (S3) |\n| 15 | S3 Storage Classes |\n| 16 | S3 Characteristics |\n| 17 | Create an S3 Bucket (Lab) |\n| 18 | IAM Users and Groups |\n| 19 | Create an IAM User (Lab) |\n| 20 | IAM Policies and Roles (Lab) |\n| 21 | EC2 Instances and Security Groups |\n| 22 | EC2 Launch Types |\n| 23 | EBS, EFS, and Other Storage Types |\n| 24 | Auto Scaling Groups and Load Balancers |\n| 25 | Databases and RDS |\n| 26 | Non-RDS Offerings (Part 1) |\n| 27 | Non-RDS Offerings (Part 2) |\n| 28 | Non-EC2 Compute Services |\n\n---\n\n## \ud83d\udca1 Tips to Pass the Exam\n\n1. **Study all 4 domains** \u2014 but spend more time on Domains 2 and 3\n2. **Know the purpose of each major AWS service** \u2014 not how to configure them, just WHAT they do\n3. **Understand the Shared Responsibility Model** \u2014 this appears on almost every exam\n4. **Learn pricing models** \u2014 On-Demand, Reserved, Spot, Savings Plans\n5. **Practice with sample questions** \u2014 get used to \"distractor\" answers\n6. **Always answer every question** \u2014 no penalty for guessing\n7. **Review AWS's own documentation** \u2014 it's the authoritative source\n\n---",
+    "questions": [
+      {
+        "question": "Which of the following best describes the AWS Certified Cloud Practitioner certification?",
+        "options": [
+          "A) An advanced certification for cloud architects who design complex multi-region systems",
+          "B) A foundational certification that validates overall knowledge of the AWS Cloud independent of a specific job role",
+          "C) A certification that requires at least 2 years of hands-on AWS experience",
+          "D) A developer-focused certification covering AWS Lambda and microservices"
+        ],
+        "answer": "B",
+        "explanation": "The CLF-C02 is a **foundational** (entry-level) exam intended for anyone who wants to demonstrate general AWS Cloud knowledge, regardless of their role. It does not require deep technical experience."
+      },
+      {
+        "question": "What is the minimum passing score for the AWS Certified Cloud Practitioner (CLF-C02) exam?",
+        "options": [
+          "A) 500",
+          "B) 650",
+          "C) 700",
+          "D) 800"
+        ],
+        "answer": "C",
+        "explanation": "The exam is scored on a scale of 100\u20131,000, and the minimum passing score is **700**."
+      },
+      {
+        "question": "How many scored questions are on the CLF-C02 exam?",
+        "options": [
+          "A) 50",
+          "B) 65",
+          "C) 75",
+          "D) 100"
+        ],
+        "answer": "A",
+        "explanation": "The exam has 65 total questions, but only **50 are scored**. The remaining 15 are unscored experimental questions used by AWS to evaluate future exam content. You cannot tell which questions are unscored."
+      },
+      {
+        "question": "Which of the following tasks is OUT OF SCOPE for the AWS Cloud Practitioner exam?",
+        "options": [
+          "A) Identifying AWS services for common use cases",
+          "B) Explaining the value of the AWS Cloud",
+          "C) Designing and implementing a multi-tier cloud architecture",
+          "D) Understanding AWS billing and pricing models"
+        ],
+        "answer": "C",
+        "explanation": "The CLF-C02 does NOT test your ability to design or implement architectures. That is covered by the **AWS Solutions Architect** certifications. The practitioner exam is about understanding WHAT services exist, not HOW to build with them."
+      },
+      {
+        "question": "What is the largest content domain by percentage on the CLF-C02 exam?",
+        "options": [
+          "A) Cloud Concepts (24%)",
+          "B) Security and Compliance (30%)",
+          "C) Cloud Technology and Services (34%)",
+          "D) Billing, Pricing, and Support (12%)"
+        ],
+        "answer": "C",
+        "explanation": "**Domain 3 \u2013 Cloud Technology and Services** makes up 34% of the scored content, making it the most heavily tested domain. Focus significant study time here."
+      },
+      {
+        "question": "A student leaves a question unanswered on the CLF-C02 exam. What happens to their score?",
+        "options": [
+          "A) The question is skipped and does not affect the score",
+          "B) The student receives a partial credit",
+          "C) The question is marked as incorrect",
+          "D) The student is penalized with negative points"
+        ],
+        "answer": "C",
+        "explanation": "Unanswered questions are scored as **incorrect**. However, there is **no additional penalty** for guessing, so you should always select an answer \u2014 even if you're unsure."
+      },
+      {
+        "question": "Which of the following is a recommended AWS knowledge area for the CLF-C02 target candidate? (Select TWO)",
+        "options": [
+          "A) Advanced networking with BGP and VPN tunneling",
+          "B) AWS Cloud concepts",
+          "C) Writing Lambda functions in Python",
+          "D) Economics of the AWS Cloud",
+          "E) Kubernetes cluster management"
+        ],
+        "answer": "B and D",
+        "explanation": "AWS recommends candidates understand **Cloud Concepts** and **Economics of the AWS Cloud** (along with security and core services). Advanced networking, coding, and Kubernetes are outside the scope of this foundational exam."
+      },
+      {
+        "question": "What type of scoring model does the CLF-C02 use?",
+        "options": [
+          "A) Section-based scoring, where you must pass each domain separately",
+          "B) Absolute scoring, where each question has equal weight",
+          "C) Compensatory scoring, where you only need to pass the overall exam",
+          "D) Adaptive scoring, where questions get harder as you answer correctly"
+        ],
+        "answer": "C",
+        "explanation": "The CLF-C02 uses a **compensatory scoring model** \u2014 you do not need to achieve a passing score in each domain. You only need an overall scaled score of 700 or higher."
+      }
+    ],
+    "id": "lesson-01"
+  },
+  {
+    "title": "\ud83d\udcd8 Lesson 02 \u2013 What is Cloud Computing?",
+    "content": "# \ud83d\udcd8 Lesson 02 \u2013 What is Cloud Computing?\n## AWS Certified Cloud Practitioner (CLF-C02)\n\n---\n\n## \ud83c\udf10 The Official Definition\n\nThe most important definition you must know for the exam comes from **NIST (National Institute of Standards and Technology)**:\n\n> *\"Cloud computing is a model for enabling ubiquitous, convenient, **on-demand network access** to a **shared pool of configurable computing resources** (e.g., networks, servers, storage, applications, and services) that can be **rapidly provisioned and released** with minimal management effort or service provider interaction.\"*\n> \u2014 NIST Special Publication 800-145\n\nIn simple terms:\n> **Cloud computing = accessing IT resources (servers, storage, databases, etc.) over the Internet, on-demand, and paying only for what you use.**\n\n---\n\n## \ud83c\udfe0 The Old Way vs. The Cloud Way\n\n| Traditional (On-Premises) | Cloud Computing (AWS) |\n|---|---|\n| Buy physical servers upfront | Rent virtual resources on-demand |\n| Weeks/months to provision | Minutes to provision |\n| Pay for full capacity even if unused | Pay only for what you consume |\n| Fixed capacity \u2014 hard to scale | Scale up or down instantly |\n| Responsible for hardware maintenance | AWS manages the hardware |\n| One geographic location | Deploy globally in minutes |\n\n---\n\n## \ud83d\udd11 The 5 Essential Characteristics of Cloud Computing (NIST)\n\nThese 5 characteristics define what makes something truly \"cloud\". The AWS exam tests these directly.\n\n---\n\n### 1. \ud83d\uddb1\ufe0f On-Demand Self-Service\n- Users can provision computing resources (servers, storage, databases) **automatically without contacting the provider**\n- No phone calls, no tickets, no waiting for an IT team\n- **AWS Example:** Launching an EC2 instance or creating an S3 bucket via the AWS Console \u2014 done in seconds, no human interaction with AWS required\n\n---\n\n### 2. \ud83c\udf0d Broad Network Access\n- Cloud resources are **accessible over the internet** from any standard device\n- Works from laptops, phones, tablets, desktops\n- **AWS Example:** Accessing your AWS Management Console from any browser anywhere in the world\n\n---\n\n### 3. \ud83c\udfca Resource Pooling\n- The provider's resources are **shared (pooled) among multiple customers** using a **multi-tenant model**\n- Physical and virtual resources are dynamically assigned based on demand\n- Customers generally don't know exactly which physical server their workload runs on\n- **AWS Example:** Multiple companies sharing the same underlying AWS physical infrastructure without seeing each other's data\n\n---\n\n### 4. \u26a1 Rapid Elasticity\n- Resources can be **scaled up or down quickly** \u2014 sometimes automatically \u2014 to match demand\n- To the user, cloud capacity feels **essentially unlimited**\n- **AWS Example:** Auto Scaling Groups automatically adding more EC2 instances during a traffic spike, then removing them when traffic drops\n\n---\n\n### 5. \ud83d\udcca Measured Service\n- Cloud systems **automatically monitor and meter** resource usage\n- Users are billed only for what they consume (pay-as-you-go)\n- Full transparency \u2014 you can see exactly what you're using\n- **AWS Example:** AWS billing dashboard showing exact usage in GB of S3 storage, hours of EC2 compute, and data transfer\n\n---\n\n## \ud83d\udcb0 The 6 Advantages of Cloud Computing (AWS Specific)\n\nAWS defines **6 key advantages** of cloud computing. These are frequently tested on the CLF-C02 exam \u2014 memorize them!\n\n---\n\n### 1. \ud83d\udcb5 Trade Fixed Expense for Variable Expense\n- Instead of spending millions on data centers **before knowing your needs**, you pay **only when you use** resources\n- No upfront capital expenditure (CapEx) \u2192 pay-as-you-go operational expense (OpEx)\n- **Think of it like:** Renting a car only when you need it vs. buying one you might only use occasionally\n\n---\n\n### 2. \ud83d\udcc9 Benefit from Massive Economies of Scale\n- AWS serves **hundreds of thousands of customers**, buying hardware in enormous quantities\n- These savings are passed on to customers as **lower prices**\n- You get lower costs than you could achieve running your own data center\n\n---\n\n### 3. \ud83d\udd2e Stop Guessing Capacity\n- Traditional IT forces you to predict how much capacity you'll need months in advance\n- If you over-provision \u2192 wasted money on idle resources\n- If you under-provision \u2192 poor performance, outages\n- With AWS: **scale resources exactly to match actual demand** \u2014 no guessing needed\n\n---\n\n### 4. \u26a1 Increase Speed and Agility\n- In traditional IT, getting new servers takes **weeks to months** (ordering, shipping, racking, configuring)\n- With AWS, new resources are available in **minutes**\n- This dramatically speeds up development, testing, and time-to-market for new products\n\n---\n\n### 5. \ud83c\udfe2 Stop Spending Money Running and Maintaining Data Centers\n- Managing physical infrastructure requires: power, cooling, physical security, hardware repairs, staff\n- AWS takes over all of that \u2014 you **focus on your customers and your applications**, not on physical infrastructure\n- **\"Stop racking, stacking, and powering servers\"**\n\n---\n\n### 6. \ud83c\udf0e Go Global in Minutes\n- AWS has infrastructure **all around the world** (Regions, Availability Zones)\n- You can deploy your application in multiple geographic regions with just a few clicks\n- This reduces **latency** (faster response for users) and improves **customer experience** globally\n\n---\n\n## \u2601\ufe0f What Can You Do with Cloud Computing?\n\nOrganizations use cloud computing for many purposes:\n\n| Use Case | Description |\n|---|---|\n| **Data Backup & Restore** | Store backups in S3, recover quickly |\n| **Disaster Recovery** | Run backup environments at low cost |\n| **Email & Collaboration** | Run email and communication tools |\n| **Virtual Desktops** | Deploy desktops as a service (Amazon WorkSpaces) |\n| **Development & Testing** | Spin up test environments on demand |\n| **Big Data Analytics** | Process massive datasets (Amazon EMR, Redshift) |\n| **Web Applications** | Host scalable websites (EC2, Elastic Beanstalk) |\n| **Machine Learning / AI** | Access ML services without specialized hardware |\n\n---\n\n## \ud83c\udfd7\ufe0f Traditional IT Infrastructure vs. Cloud\n\n```\nTRADITIONAL DATA CENTER:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502  Physical Servers               \u2502\n\u2502  Networking Equipment           \u2502  \u2190 You BUY and MANAGE all of this\n\u2502  Storage Arrays                 \u2502\n\u2502  Power & Cooling                \u2502\n\u2502  Physical Security              \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\nAWS CLOUD:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502  EC2 (Compute)                  \u2502\n\u2502  VPC (Networking)               \u2502  \u2190 You CONFIGURE these via console/API\n\u2502  S3 / EBS (Storage)             \u2502\n\u2502  AWS manages the physical layer \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n```\n\n---\n\n## \ud83d\udccc Key Terms to Know for the Exam\n\n| Term | Definition |\n|---|---|\n| **Cloud Computing** | On-demand delivery of IT resources over the internet with pay-as-you-go pricing |\n| **On-Demand** | Available immediately without advance planning |\n| **Pay-as-you-go** | Only pay for what you actually use |\n| **Elasticity** | Ability to automatically scale resources up and down with demand |\n| **Scalability** | Ability to handle growing workloads by adding resources |\n| **Agility** | Speed at which new resources can be deployed (minutes vs. weeks) |\n| **CapEx** | Capital Expenditure \u2014 upfront costs for physical hardware |\n| **OpEx** | Operational Expenditure \u2014 ongoing pay-as-you-go costs |\n| **Multi-tenancy** | Multiple customers sharing the same underlying infrastructure |\n| **High Availability** | Systems designed to minimize downtime |\n| **Fault Tolerance** | System continues operating even when components fail |\n\n---\n\n## \ud83d\udd01 Elasticity vs. Scalability \u2014 Know the Difference!\n\nThis is a common exam trap:\n\n| Concept | Meaning | AWS Example |\n|---|---|---|\n| **Scalability** | Ability to **add capacity** to handle growing demand | Manually increasing EC2 instance size |\n| **Elasticity** | Ability to **automatically** scale up AND down based on real-time demand | Auto Scaling Group adding instances during peak and removing them after |\n\n> \ud83d\udca1 **Elasticity = Automatic and bidirectional (up AND down)**\n> **Scalability = Capacity to grow (may be manual)**\n\n---",
+    "questions": [
+      {
+        "question": "What is the AWS definition of cloud computing?",
+        "options": [
+          "A) Renting physical data centers from Amazon and managing your own hardware",
+          "B) The on-demand delivery of IT resources over the Internet with pay-as-you-go pricing",
+          "C) A system of pre-purchased servers located in your own office building",
+          "D) A backup service for storing files on external hard drives"
+        ],
+        "answer": "B",
+        "explanation": "AWS defines cloud computing as the **on-demand delivery of IT resources over the Internet with pay-as-you-go pricing**. You don't buy hardware \u2014 you access resources when you need them and pay only for consumption."
+      },
+      {
+        "question": "According to NIST, which of the following is one of the five essential characteristics of cloud computing?",
+        "options": [
+          "A) Unlimited free storage",
+          "B) Dedicated physical servers per customer",
+          "C) On-demand self-service",
+          "D) Fixed monthly pricing regardless of usage"
+        ],
+        "answer": "C",
+        "explanation": "NIST's five characteristics are: On-demand self-service, Broad network access, Resource pooling, Rapid elasticity, and Measured service. **On-demand self-service** means users can provision resources automatically without human interaction with the provider."
+      },
+      {
+        "question": "A company wants to avoid the large upfront cost of purchasing servers. Which AWS cloud advantage addresses this?",
+        "options": [
+          "A) Go global in minutes",
+          "B) Stop guessing capacity",
+          "C) Trade fixed expense for variable expense",
+          "D) Benefit from massive economies of scale"
+        ],
+        "answer": "C",
+        "explanation": "\"Trade fixed expense for variable expense\" means replacing upfront capital expenditure (buying hardware) with a pay-as-you-go model. You pay only when you use resources, eliminating large upfront investments."
+      },
+      {
+        "question": "A retail company experiences massive traffic spikes every Black Friday. Their traffic then drops back to normal levels. Which cloud concept BEST describes the ability to automatically adjust resources to match this fluctuating demand?",
+        "options": [
+          "A) High Availability",
+          "B) Elasticity",
+          "C) Fault Tolerance",
+          "D) Durability"
+        ],
+        "answer": "B",
+        "explanation": "**Elasticity** is the ability to automatically scale resources up during high demand and scale them back down when demand drops. This is the perfect solution for workloads with variable or unpredictable traffic patterns."
+      },
+      {
+        "question": "Which of the following BEST describes the NIST characteristic of \"Resource Pooling\" in cloud computing?",
+        "options": [
+          "A) Each customer has their own dedicated physical hardware that no one else can access",
+          "B) Resources are pre-purchased months in advance to ensure availability",
+          "C) The provider's computing resources are shared among multiple customers using a multi-tenant model",
+          "D) Resources can only be accessed from within a private corporate network"
+        ],
+        "answer": "C",
+        "explanation": "Resource pooling means the cloud provider's infrastructure is **shared among multiple customers** (multi-tenancy). Resources are dynamically assigned based on demand. Customers don't know the exact physical location of their resources."
+      },
+      {
+        "question": "A startup wants to test a new application in Tokyo, S\u00e3o Paulo, and Frankfurt simultaneously. Previously, this would take months to set up. Which AWS cloud advantage makes this possible in minutes?",
+        "options": [
+          "A) Stop guessing capacity",
+          "B) Benefit from massive economies of scale",
+          "C) Increase speed and agility",
+          "D) Go global in minutes"
+        ],
+        "answer": "D",
+        "explanation": "\"Go global in minutes\" is the AWS advantage that allows you to deploy applications across AWS Regions worldwide with just a few clicks \u2014 dramatically reducing the time and cost to reach global customers."
+      },
+      {
+        "question": "What is the key difference between scalability and elasticity?",
+        "options": [
+          "A) Scalability is only for databases; elasticity is only for compute",
+          "B) Scalability refers to the ability to grow capacity; elasticity refers to automatically scaling both up AND down based on demand",
+          "C) Elasticity requires manual intervention; scalability is automatic",
+          "D) They are the same concept and can be used interchangeably"
+        ],
+        "answer": "B",
+        "explanation": "**Scalability** = ability to increase capacity to handle growth. **Elasticity** = automatically scaling up AND down in response to real-time demand. Elasticity is bidirectional and often automatic (e.g., Auto Scaling Groups)."
+      },
+      {
+        "question": "Which of the following is an example of \"measured service\" in cloud computing?",
+        "options": [
+          "A) AWS charges a flat monthly fee regardless of usage",
+          "B) A customer pays only for the exact number of hours an EC2 instance was running",
+          "C) AWS provides unlimited storage to all customers at no charge",
+          "D) Cloud resources are always available but cannot be monitored"
+        ],
+        "answer": "B",
+        "explanation": "Measured service means cloud usage is **monitored, controlled, and billed based on actual consumption**. Paying per hour of EC2 usage is a direct example \u2014 you only pay for what you use."
+      },
+      {
+        "question": "Which of the following scenarios BEST illustrates the AWS cloud advantage of \"Stop Guessing Capacity\"?",
+        "options": [
+          "A) A company purchases 100 physical servers to handle anticipated traffic that never arrives",
+          "B) A company uses AWS Auto Scaling to automatically add or remove servers based on real-time traffic",
+          "C) A company signs a 3-year hardware lease to lock in server pricing",
+          "D) A company builds a second data center as a backup in case the first one fails"
+        ],
+        "answer": "B",
+        "explanation": "\"Stop guessing capacity\" means using cloud resources that match actual demand instead of over-provisioning or under-provisioning. Auto Scaling automatically right-sizes capacity \u2014 eliminating the need to guess future needs."
+      },
+      {
+        "question": "A company is moving from running their own data center to using AWS. Which of the following describes the change in cost model they will experience?",
+        "options": [
+          "A) Moving from variable expense (OpEx) to fixed expense (CapEx)",
+          "B) Moving from fixed expense (CapEx) to variable expense (OpEx)",
+          "C) Both models cost the same; only the management responsibilities change",
+          "D) AWS requires a large upfront payment before any services can be used"
+        ],
+        "answer": "B",
+        "explanation": "Traditional IT = **CapEx** (large upfront capital expenses for hardware). Cloud computing = **OpEx** (ongoing operational expenses based on consumption). This shift from CapEx to OpEx is one of the most cited financial benefits of moving to the cloud."
+      }
+    ],
+    "id": "lesson-02"
+  },
+  {
+    "title": "\ud83d\udcd8 Lesson 03 \u2013 What is Virtualization?",
+    "content": "# \ud83d\udcd8 Lesson 03 \u2013 What is Virtualization?\n## AWS Certified Cloud Practitioner (CLF-C02)\n\n---\n\n## \ud83e\udde0 Why Virtualization Matters for the Exam\n\nVirtualization is the **core technology that makes cloud computing possible**. Without it, AWS could not offer on-demand servers, elastic scaling, or pay-as-you-go pricing. Understanding what virtualization is and how it works helps you answer questions about EC2, resource isolation, multi-tenancy, and the AWS Nitro System.\n\n---\n\n## \ud83c\udfd7\ufe0f What is Virtualization?\n\n**Virtualization** is the process of using software to create a **virtual (software-based) version** of something that normally exists as physical hardware \u2014 such as a server, storage device, or network.\n\n> In simple terms: **One physical machine can be divided into many independent virtual machines (VMs), each behaving as if it were a separate physical computer.**\n\n### Real-World Analogy:\nThink of a large apartment building. One physical building (the server) is divided into many separate apartments (virtual machines). Each apartment has its own door, utilities, and residents \u2014 completely isolated from the neighbors \u2014 yet they all share the same physical building.\n\n---\n\n## \ud83d\udda5\ufe0f What is a Virtual Machine (VM)?\n\nA **Virtual Machine (VM)** is a software-based computer that:\n- Has its own **operating system** (Windows, Linux, etc.)\n- Has its own **CPU, RAM, and storage** (allocated from the physical host)\n- Runs **applications** independently\n- Is **completely isolated** from other VMs on the same physical server\n\n### In AWS:\n> When you launch an **EC2 instance**, you are launching a **Virtual Machine** running on AWS physical hardware. You never interact with the physical server directly \u2014 AWS manages that layer entirely.\n\n---\n\n## \u2699\ufe0f What is a Hypervisor?\n\nA **Hypervisor** (also called a **Virtual Machine Monitor / VMM**) is the software layer that:\n- Sits **between the physical hardware and the virtual machines**\n- **Creates and manages** VMs\n- **Allocates physical resources** (CPU, RAM, storage, network) to each VM\n- **Isolates** VMs from each other so they cannot interfere with one another\n\n```\nWITHOUT VIRTUALIZATION:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502         Application              \u2502\n\u2502         Operating System         \u2502\n\u2502         Physical Hardware        \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nOne app per physical server \u2014 very wasteful!\n\n\nWITH VIRTUALIZATION (Hypervisor):\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502  VM 1               VM 2               VM 3              \u2502\n\u2502  [App A]            [App B]            [App C]           \u2502\n\u2502  [Linux OS]         [Windows OS]       [Linux OS]        \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502                   HYPERVISOR                             \u2502\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502               Physical Hardware                          \u2502\n\u2502       (CPU, RAM, Storage, Network)                       \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nMultiple VMs on ONE physical server \u2014 efficient!\n```\n\n---\n\n## \ud83d\udd00 Two Types of Hypervisors\n\nThis is one of the most commonly tested concepts related to virtualization.\n\n---\n\n### \ud83e\udd47 Type 1 Hypervisor \u2014 \"Bare-Metal Hypervisor\"\n\n| Feature | Details |\n|---|---|\n| **Runs on** | Directly on the physical hardware \u2014 NO host OS needed |\n| **Also called** | Bare-metal hypervisor |\n| **Performance** | \u26a1 High \u2014 direct hardware access, no overhead |\n| **Security** | \ud83d\udd12 More secure \u2014 no underlying OS that can be compromised |\n| **Used for** | Enterprise data centers, cloud providers |\n| **Examples** | VMware ESXi, Microsoft Hyper-V, Xen, **AWS Nitro System** |\n\n```\nType 1 Architecture:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502    VM 1     \u2502 \u2502    VM 2     \u2502 \u2502    VM 3     \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n       \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n              \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25bc\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n              \u2502  TYPE 1         \u2502\n              \u2502  HYPERVISOR     \u2502 \u2190 Runs directly on hardware\n              \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n              \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25bc\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n              \u2502 Physical Server \u2502\n              \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n```\n\n---\n\n### \ud83e\udd48 Type 2 Hypervisor \u2014 \"Hosted Hypervisor\"\n\n| Feature | Details |\n|---|---|\n| **Runs on** | On top of an existing **Host Operating System** |\n| **Also called** | Hosted or embedded hypervisor |\n| **Performance** | \ud83d\udc22 Slightly lower \u2014 requests pass through the host OS |\n| **Security** | \u26a0\ufe0f Less secure \u2014 host OS compromise can affect VMs |\n| **Used for** | Developers, testers, personal computers |\n| **Examples** | Oracle VirtualBox, VMware Workstation, Parallels Desktop |\n\n```\nType 2 Architecture:\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502    VM 1     \u2502 \u2502    VM 2     \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n       \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n       \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25bc\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n       \u2502  TYPE 2       \u2502\n       \u2502  HYPERVISOR   \u2502 \u2190 Runs as an app\n       \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n       \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25bc\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n       \u2502  Host OS      \u2502 \u2190 e.g. Windows or macOS\n       \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n       \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25bc\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n       \u2502 Physical HW   \u2502\n       \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n```\n\n---\n\n### \u26a1 Type 1 vs. Type 2 \u2014 Quick Comparison Table\n\n| Feature | Type 1 (Bare-Metal) | Type 2 (Hosted) |\n|---|---|---|\n| Installed on | Physical hardware directly | On top of a host OS |\n| Performance | Higher | Lower (OS overhead) |\n| Security | More secure | Less secure |\n| Complexity | More complex to set up | Easier to install |\n| Use case | Cloud & enterprise | Desktop & development |\n| AWS usage | \u2705 Yes (Nitro System) | \u274c No |\n| Examples | Nitro, Xen, ESXi, Hyper-V | VirtualBox, VMware Workstation |\n\n---\n\n## \ud83d\udd25 AWS and Virtualization \u2014 The Nitro System\n\nAWS uses its own custom **Type 1 hypervisor** called the **AWS Nitro System**.\n\n### What is the AWS Nitro System?\n- A **lightweight, high-performance hypervisor** built by AWS\n- Runs **directly on physical hardware** (Type 1)\n- Powers **most modern EC2 instance types**\n- Offloads virtualization functions to **dedicated Nitro hardware cards** (not software)\n- Delivers **near bare-metal performance** to EC2 instances\n- Previously, AWS used the **Xen hypervisor** (older generation EC2 instances)\n\n### Benefits of the Nitro System:\n| Benefit | What It Means |\n|---|---|\n| **Performance** | Near bare-metal speed \u2014 almost all CPU resources go to your workload |\n| **Security** | Isolated hardware-enforced boundaries between instances |\n| **Flexibility** | Supports 600+ EC2 instance types |\n| **Innovation** | Enables features like bare metal instances, high-speed networking, EBS optimization |\n\n> \ud83d\udca1 **Exam tip:** You don't need deep technical knowledge of Nitro for the CLF-C02 exam. Just know that AWS uses a **Type 1 hypervisor** (the Nitro System) to power EC2 instances, and that it provides strong isolation between customer workloads.\n\n---\n\n## \ud83d\udd12 VM Isolation \u2014 Why It Matters\n\nOne of the most important properties of virtualization in AWS is **isolation**:\n\n- Multiple customers' VMs can run on the **same physical server**\n- The hypervisor ensures each VM is completely **isolated from all others**\n- One customer's workload **cannot see or access** another customer's data\n- This is the foundation of **multi-tenancy** in the cloud (from Lesson 02)\n\n> This isolation is what makes it safe to share physical hardware between thousands of different AWS customers.\n\n---\n\n## \ud83d\udce6 Virtualization in the Context of AWS EC2\n\nWhen you launch an EC2 instance, here's what happens behind the scenes:\n\n```\nStep 1: You request an EC2 instance (e.g., t3.medium)\n          \u2193\nStep 2: AWS selects an available physical server with enough resources\n          \u2193\nStep 3: The Nitro Hypervisor allocates CPU, RAM, network, and storage\n          \u2193\nStep 4: A Virtual Machine (your EC2 instance) is created and isolated\n          \u2193\nStep 5: Your chosen AMI (OS image) boots up inside the VM\n          \u2193\nStep 6: You connect and use your EC2 instance \u2014 unaware of the physical server underneath\n```\n\n---\n\n## \ud83c\udf1f Benefits of Virtualization for Cloud Computing\n\n| Benefit | Description |\n|---|---|\n| **Resource Efficiency** | One physical server runs many VMs \u2014 less hardware waste |\n| **Cost Savings** | Fewer physical servers needed \u2192 lower hardware and energy costs |\n| **Isolation** | Each VM is independent \u2014 crash in one doesn't affect others |\n| **Portability** | VMs can be moved between physical servers easily |\n| **Scalability** | New VMs can be created in minutes (enabling AWS elasticity) |\n| **Disaster Recovery** | VMs can be snapshotted, backed up, and restored easily |\n| **Multi-tenancy** | Many customers share infrastructure safely |\n\n---\n\n## \ud83d\udccc Key Terms to Know for the Exam\n\n| Term | Definition |\n|---|---|\n| **Virtualization** | Creating virtual versions of hardware using software |\n| **Virtual Machine (VM)** | A software-based computer that runs on a physical host |\n| **Hypervisor** | Software that creates and manages VMs; allocates physical resources |\n| **VMM** | Virtual Machine Monitor \u2014 another name for a hypervisor |\n| **Type 1 Hypervisor** | Runs directly on hardware (bare-metal); used by AWS |\n| **Type 2 Hypervisor** | Runs on top of a host OS; used for desktops/testing |\n| **AWS Nitro System** | AWS's custom Type 1 hypervisor powering modern EC2 instances |\n| **Xen** | Older Type 1 hypervisor previously used by AWS EC2 |\n| **EC2 Instance** | A virtual machine running on AWS |\n| **AMI** | Amazon Machine Image \u2014 the OS template used to launch an EC2 instance |\n| **Host Machine** | The physical server running the hypervisor |\n| **Guest Machine** | The virtual machine running inside the hypervisor |\n| **Isolation** | Separation between VMs so they cannot access each other |\n| **Multi-tenancy** | Multiple customers sharing the same underlying physical hardware |\n\n---",
+    "questions": [
+      {
+        "question": "What is virtualization in the context of cloud computing?",
+        "options": [
+          "A) The process of physically duplicating servers in multiple locations",
+          "B) The use of software to create virtual representations of hardware, allowing one physical server to run multiple independent virtual machines",
+          "C) A method of connecting multiple physical servers together to act as one",
+          "D) A backup strategy for storing data in multiple locations"
+        ],
+        "answer": "B",
+        "explanation": "Virtualization uses software to create virtual machines (VMs) on a single physical server. Each VM behaves as an independent computer, which enables cloud providers like AWS to efficiently use physical resources and offer on-demand computing."
+      },
+      {
+        "question": "What is a hypervisor?",
+        "options": [
+          "A) A physical server that hosts virtual machines",
+          "B) A software layer that creates, manages, and isolates virtual machines on a physical host",
+          "C) A type of database used to track virtual machine usage",
+          "D) A networking component that routes traffic between data centers"
+        ],
+        "answer": "B",
+        "explanation": "A hypervisor (also called a Virtual Machine Monitor or VMM) is the software layer that sits between the physical hardware and VMs. It manages resource allocation and ensures isolation between virtual machines."
+      },
+      {
+        "question": "Which type of hypervisor runs directly on the physical server hardware without requiring a host operating system?",
+        "options": [
+          "A) Type 2 (Hosted) Hypervisor",
+          "B) Type 3 (Cloud) Hypervisor",
+          "C) Type 1 (Bare-Metal) Hypervisor",
+          "D) Type 0 (Legacy) Hypervisor"
+        ],
+        "answer": "C",
+        "explanation": "A **Type 1 (Bare-Metal) Hypervisor** runs directly on the physical hardware, without requiring a host operating system. This gives it higher performance and better security compared to Type 2 hypervisors. AWS uses a Type 1 hypervisor (the Nitro System)."
+      },
+      {
+        "question": "What is the name of AWS's custom hypervisor that powers modern EC2 instances?",
+        "options": [
+          "A) VMware ESXi",
+          "B) Microsoft Hyper-V",
+          "C) Oracle VirtualBox",
+          "D) AWS Nitro System"
+        ],
+        "answer": "D",
+        "explanation": "AWS uses the **AWS Nitro System**, a custom-built, lightweight Type 1 hypervisor. It runs directly on physical hardware, offloads virtualization tasks to dedicated hardware cards, and provides near bare-metal performance with strong security isolation between EC2 instances."
+      },
+      {
+        "question": "A developer is running a personal Windows laptop and installs VirtualBox to test a Linux application. What type of hypervisor is being used?",
+        "options": [
+          "A) Type 1 \u2014 Bare-Metal Hypervisor",
+          "B) Type 2 \u2014 Hosted Hypervisor",
+          "C) AWS Nitro Hypervisor",
+          "D) Distributed Hypervisor"
+        ],
+        "answer": "B",
+        "explanation": "VirtualBox is a **Type 2 (Hosted) Hypervisor** \u2014 it runs as an application on top of an existing host operating system (Windows in this case). Type 2 hypervisors are common for development and testing on personal computers."
+      },
+      {
+        "question": "What is an Amazon EC2 instance at its most fundamental level?",
+        "options": [
+          "A) A dedicated physical server rented from AWS",
+          "B) A virtual machine running on AWS physical infrastructure managed by a hypervisor",
+          "C) A container running inside a Docker environment",
+          "D) A static website hosted on Amazon S3"
+        ],
+        "answer": "B",
+        "explanation": "An EC2 instance is a **virtual machine** \u2014 a software-based computer created and managed by the AWS Nitro hypervisor, running on AWS physical servers. You do not interact with the physical hardware; AWS abstracts that layer entirely."
+      },
+      {
+        "question": "Which of the following is the MOST significant security benefit of virtualization in AWS?",
+        "options": [
+          "A) All customer data is stored in the same location for easy access",
+          "B) Physical servers are cheaper to purchase",
+          "C) Virtual machines are isolated from each other, preventing one customer's workload from accessing another's",
+          "D) Customers can choose which physical server their VM runs on"
+        ],
+        "answer": "C",
+        "explanation": "The hypervisor enforces **strong isolation** between virtual machines. Even though multiple customers' EC2 instances may run on the same physical server, they cannot see or access each other's data. This isolation is fundamental to the multi-tenant cloud model."
+      },
+      {
+        "question": "Which of the following correctly describes the difference between a Type 1 and Type 2 hypervisor?",
+        "options": [
+          "A) Type 1 runs inside a virtual machine; Type 2 runs on physical hardware",
+          "B) Type 1 runs directly on hardware for high performance; Type 2 runs on a host OS as an application",
+          "C) Type 1 is used only for storage; Type 2 is used only for compute",
+          "D) Type 1 is free software; Type 2 is always a paid product"
+        ],
+        "answer": "B",
+        "explanation": "**Type 1** runs directly on bare metal hardware (no host OS needed) \u2014 used by AWS and enterprise data centers for high performance and security. **Type 2** runs as an application on top of a host OS \u2014 used by developers for testing (e.g., VirtualBox, VMware Workstation)."
+      },
+      {
+        "question": "A company wants to maximize the use of its physical server hardware by running multiple isolated workloads on the same machine. Which technology enables this?",
+        "options": [
+          "A) DNS routing",
+          "B) Load balancing",
+          "C) Virtualization",
+          "D) Content delivery network (CDN)"
+        ],
+        "answer": "C",
+        "explanation": "**Virtualization** is the technology that allows one physical server to host multiple independent virtual machines (VMs), each with its own OS and applications. This maximizes resource efficiency and is the core technology behind cloud computing."
+      },
+      {
+        "question": "Which of the following is TRUE about the AWS Nitro System? (Select TWO)",
+        "options": [
+          "A) It is a Type 2 hypervisor that runs on top of Windows Server",
+          "B) It is a custom-built Type 1 bare-metal hypervisor developed by AWS",
+          "C) It powers most modern Amazon EC2 instances",
+          "D) It was developed by Oracle and licensed to AWS",
+          "E) It requires customers to manage the hypervisor directly"
+        ],
+        "answer": "B and C",
+        "explanation": "The AWS Nitro System is AWS's own **custom-built Type 1 (bare-metal) hypervisor** that runs directly on physical hardware. It powers **most modern EC2 instances** and provides near bare-metal performance with strong security. Customers never interact with or manage the Nitro hypervisor \u2014 AWS handles that entirely."
+      }
+    ],
+    "id": "lesson-03"
+  }
+]

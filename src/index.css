@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #10b981; /* Emerald */
+  --color-primary-hover: #059669;
+  --color-bg-deep: #0f172a; /* Slate 900 */
+  --color-bg-surface: #1e293b; /* Slate 800 */
+  --color-text-main: #f8fafc; /* Slate 50 */
+  --color-text-muted: #94a3b8; /* Slate 400 */
+  --color-border-subtle: #334155; /* Slate 700 */
+}
+
+:root {
+  --primary: #10b981;
+  --bg-deep: #0f172a;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  @apply bg-[#0f172a] text-slate-50 overflow-x-hidden;
+}
+
+.glass-card {
+  @apply bg-slate-800/50 backdrop-blur-xl border border-slate-700/50 shadow-2xl rounded-[2.5rem];
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 px-8 py-4 font-bold rounded-2xl transition-all duration-300 active:scale-95;
+}
+
+.btn-primary {
+  @apply bg-emerald-600 text-white hover:bg-emerald-500 shadow-xl shadow-emerald-500/10;
+}
+
+.container {
+  @apply max-w-[1200px] mx-auto px-6;
+}
+
+/* Custom Prose Styling - Dark Mode Literals */
+.prose {
+  @apply max-w-none text-slate-300 leading-relaxed;
+}
+
+.prose h1 { @apply text-white font-extrabold tracking-tight text-4xl md:text-5xl mb-10; }
+.prose h2 { @apply text-white font-bold border-b-2 border-emerald-500/30 pb-2 mt-16 mb-8 inline-block text-2xl md:text-3xl; }
+.prose h3 { @apply text-emerald-400 font-semibold mt-10 mb-6 text-xl; }
+.prose p { @apply text-lg mb-6 leading-relaxed; }
+.prose ul { @apply space-y-3 mb-10 list-none p-0; }
+.prose li { @apply flex items-start gap-3 text-lg; }
+.prose li::before {
+  content: "→";
+  @apply text-emerald-500 font-black mt-1;
+}
+
+.prose blockquote { 
+  @apply border-l-4 border-emerald-500 bg-emerald-500/5 rounded-2xl p-10 italic text-slate-200 my-12 shadow-inner; 
+}
+
+.prose table { @apply w-full rounded-3xl overflow-hidden border border-slate-700 my-16 bg-slate-900/50; }
+.prose th { @apply bg-slate-800 text-slate-400 p-6 text-left font-bold uppercase tracking-widest text-[10px] border-b border-slate-700; }
+.prose td { @apply p-6 border-b border-slate-700/50 text-slate-300 text-[16px]; }
+.prose tr:last-child td { @apply border-none; }
+.prose strong { @apply text-emerald-400 font-bold; }
+.prose code { @apply bg-slate-800 text-emerald-300 px-2 py-0.5 rounded-lg border border-slate-700 font-medium; }
+
+/* Tabs Navigation */
+.tabs-container {
+  @apply flex p-1.5 bg-slate-800/50 rounded-[2.5rem] gap-1 border border-slate-700/50;
+}
+
+.tab-btn {
+  @apply flex-1 py-5 rounded-[2rem] font-bold text-sm transition-all duration-300 text-slate-500;
+}
+
+.tab-btn.active {
+  @apply bg-slate-700 text-emerald-400 shadow-lg;
+}
