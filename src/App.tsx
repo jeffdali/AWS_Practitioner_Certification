@@ -8,7 +8,7 @@ import Feedback from './pages/Feedback';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/AWS_Practitioner_Certification/">
       <div className="min-h-screen bg-[#0f172a]">
         <Header />
         <main>
