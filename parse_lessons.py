@@ -58,9 +58,11 @@ def parse_md(file_path):
     }
 
 lessons = []
-files = ["Lesson_01_AWS_CCP_Introduction.md", "Lesson_02_What_Is_Cloud_Computing.md", "Lesson_03_What_Is_Virtualization.md"]
+lessons_dir = 'lessons'
+files = sorted([f for f in os.listdir(lessons_dir) if f.endswith('.md')])
 for i, f in enumerate(files):
-    lesson_data = parse_md(f)
+    lesson_path = os.path.join(lessons_dir, f)
+    lesson_data = parse_md(lesson_path)
     lesson_data["id"] = f"lesson-{i+1:02d}"
     lessons.append(lesson_data)
 

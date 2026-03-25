@@ -1,14 +1,13 @@
-
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './pages/Home';
-import LessonDetail from './pages/LessonDetail';
-import Feedback from './pages/Feedback';
+import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import LessonDetail from "./pages/LessonDetail";
+import Feedback from "./pages/Feedback";
 
 const App: React.FC = () => {
   return (
-    <Router basename="/AWS_Practitioner_Certification/">
+    <Router>
       <div className="min-h-screen bg-[#0f172a]">
         <Header />
         <main>
@@ -21,6 +20,6 @@ const App: React.FC = () => {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
