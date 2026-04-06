@@ -1,0 +1,310 @@
+[
+  {
+    "id": "full-exam-1-to-6",
+    "title": "Full Practice Exam — Lessons 01 to 06",
+    "description": "A comprehensive 48-question practice exam covering all core concepts from the first six lessons of the CLF-C02 curriculum.",
+    "topics": "Lessons 01 to 06 (Full Review)",
+    "questions": [
+      {
+        "question": "What is the minimum passing score for the AWS Certified Cloud Practitioner (CLF-C02) exam?",
+        "options": ["A) 500", "B) 650", "C) 700", "D) 850"],
+        "answer": "C",
+        "explanation": "The CLF-C02 passing score is 700 on a scale of 100–1,000."
+      },
+      {
+        "question": "How many questions appear on the CLF-C02 exam in total, and how many of those are scored?",
+        "options": ["A) 65 total, 50 scored", "B) 50 total, 50 scored", "C) 75 total, 65 scored", "D) 65 total, 65 scored"],
+        "answer": "A",
+        "explanation": "65 total questions; 15 are unscored experimental questions that don't affect your score."
+      },
+      {
+        "question": "A candidate leaves 5 questions unanswered on the CLF-C02 exam because they ran out of time. What happens to those questions?",
+        "options": ["A) They are skipped and have no impact on the final score", "B) They are flagged for manual review by AWS", "C) They are counted as incorrect answers", "D) The candidate receives a 10-point deduction per unanswered question"],
+        "answer": "C",
+        "explanation": "Unanswered questions are scored as incorrect. There is no penalty beyond that — but never leave one blank."
+      },
+      {
+        "question": "Which of the following content domains has the HIGHEST weight on the CLF-C02 exam?",
+        "options": ["A) Cloud Concepts — 24%", "B) Security and Compliance — 30%", "C) Cloud Technology and Services — 34%", "D) Billing, Pricing, and Support — 12%"],
+        "answer": "C",
+        "explanation": "Domain 3: Cloud Technology and Services is the largest domain at 34%."
+      },
+      {
+        "question": "Which of the following job tasks is explicitly OUT OF SCOPE for the AWS Cloud Practitioner certification? (Select TWO)",
+        "options": ["A) Explaining the value of the AWS Cloud", "B) Designing and implementing a multi-tier cloud architecture", "C) Understanding AWS billing and pricing models", "D) Writing and debugging application code", "E) Identifying AWS services for common use cases"],
+        "answer": "B, D",
+        "explanation": "Designing architectures (B) and writing/debugging code (D) are explicitly out of scope for the CLF-C02.",
+        "isMultiple": true
+      },
+      {
+        "question": "What type of scoring model does the CLF-C02 exam use?",
+        "options": ["A) Section-based scoring — you must pass each domain separately", "B) Compensatory scoring — you only need to pass the overall exam", "C) Adaptive scoring — harder questions appear as you answer correctly", "D) Weighted scoring — later questions count more than earlier ones"],
+        "answer": "B",
+        "explanation": "You don't need to pass each domain individually — only the total score matters (compensatory model)."
+      },
+      {
+        "question": "Which of the following BEST describes the target candidate for the CLF-C02 exam?",
+        "options": ["A) An experienced cloud architect with 5+ years designing AWS solutions", "B) A software developer specializing in serverless application development", "C) An individual with up to 6 months of exposure to AWS Cloud design, implementation, or operations", "D) A database administrator managing multi-region RDS deployments"],
+        "answer": "C",
+        "explanation": "AWS describes the target candidate as having up to 6 months of AWS exposure — no deep technical background required."
+      },
+      {
+        "question": "A candidate scores 690 on the CLF-C02 exam. What is the result?",
+        "options": ["A) Pass — the candidate exceeded the minimum required score", "B) Pass — a score above 650 is always sufficient", "C) Fail — the minimum passing score is 700", "D) Conditional pass — the candidate must retake only the failed domains"],
+        "answer": "C",
+        "explanation": "690 is less than the 700 minimum passing score."
+      },
+      {
+        "question": "Which of the following BEST defines cloud computing according to AWS?",
+        "options": ["A) A system of dedicated servers owned by a company and stored in a private building", "B) The on-demand delivery of IT resources over the Internet with pay-as-you-go pricing", "C) A backup service that stores company files on external hard drives", "D) A government-regulated infrastructure shared between public agencies"],
+        "answer": "B",
+        "explanation": "AWS defines cloud computing as the on-demand delivery of IT resources over the internet with pay-as-you-go pricing."
+      },
+      {
+        "question": "According to NIST, which of the following is one of the five essential characteristics of cloud computing?",
+        "options": ["A) Fixed monthly billing regardless of usage", "B) Dedicated physical hardware per customer", "C) Resource pooling using a multi-tenant model", "D) Manual provisioning by the cloud provider's support team"],
+        "answer": "C",
+        "explanation": "The five NIST characteristics are: On-demand self-service, Broad network access, Resource pooling, Rapid elasticity, Measured service."
+      },
+      {
+        "question": "A retail company's website experiences 10x normal traffic every holiday season and returns to normal afterward. Which cloud characteristic allows the platform to handle this automatically without manual intervention?",
+        "options": ["A) Measured Service", "B) Broad Network Access", "C) Rapid Elasticity", "D) On-Demand Self-Service"],
+        "answer": "C",
+        "explanation": "Rapid elasticity is the ability to scale resources up and down automatically to match demand."
+      },
+      {
+        "question": "A company is moving from an on-premises data center to AWS. Their IT director mentions they will no longer need to invest in server hardware upfront. Which AWS cloud advantage does this represent?",
+        "options": ["A) Go global in minutes", "B) Stop guessing capacity", "C) Trade fixed expense for variable expense", "D) Benefit from massive economies of scale"],
+        "answer": "C",
+        "explanation": "Eliminating upfront hardware investment in favor of pay-as-you-go is 'Trading fixed expense for variable expense'."
+      },
+      {
+        "question": "Which of the following BEST describes the difference between scalability and elasticity in cloud computing?",
+        "options": ["A) Scalability is automatic; elasticity requires manual intervention", "B) Scalability refers to the ability to grow capacity; elasticity refers to automatically scaling both up and down based on real-time demand", "C) They are identical concepts and are interchangeable in all contexts", "D) Scalability applies to storage only; elasticity applies to compute only"],
+        "answer": "B",
+        "explanation": "Scalability is about growth; elasticity is about automatic bidirectional scaling based on demand."
+      },
+      {
+        "question": "A company's AWS bill shows they paid for exactly 847 hours of EC2 compute and 2.3 TB of S3 storage last month — nothing more. Which NIST cloud characteristic does this billing model demonstrate?",
+        "options": ["A) Rapid Elasticity", "B) Resource Pooling", "C) Measured Service", "D) Broad Network Access"],
+        "answer": "C",
+        "explanation": "Measured service means usage is metered and billed based on consumption."
+      },
+      {
+        "question": "Which of the following statements is TRUE about the 'Stop Guessing Capacity' advantage of the AWS Cloud?",
+        "options": ["A) AWS requires customers to estimate their capacity needs 6 months in advance", "B) With AWS, customers can scale resources to match actual demand, eliminating the risk of over-provisioning or under-provisioning", "C) AWS automatically purchases additional physical hardware on behalf of customers when capacity is exceeded", "D) Customers must buy Reserved Instances in advance to avoid capacity shortfalls"],
+        "answer": "B",
+        "explanation": "Scaling resources to match actual demand means you no longer need to guess your capacity needs."
+      },
+      {
+        "question": "A company's application is currently deployed in one AWS Region. They want to expand their service to customers in Europe and Asia to reduce latency. Which AWS cloud advantage allows them to do this quickly?",
+        "options": ["A) Stop spending money running and maintaining data centers", "B) Benefit from massive economies of scale", "C) Trade fixed expense for variable expense", "D) Go global in minutes"],
+        "answer": "D",
+        "explanation": "Deploying to multiple regions to serve international users quickly is 'Going global in minutes'."
+      },
+      {
+        "question": "What is the primary purpose of virtualization in cloud computing?",
+        "options": ["A) To encrypt all customer data stored on physical servers", "B) To use software to create multiple independent virtual computers on a single physical server, maximizing resource efficiency", "C) To connect multiple physical data centers together over a wide-area network", "D) To provide automatic backups of customer workloads to a secondary location"],
+        "answer": "B",
+        "explanation": "Virtualization creates multiple independent virtual computers on one physical server, improving efficiency."
+      },
+      {
+        "question": "What is a hypervisor?",
+        "options": ["A) A physical server with extra processing power used for high-performance workloads", "B) A software layer that creates, manages, and isolates virtual machines on a physical host", "C) A networking device that routes traffic between virtual machines and the internet", "D) An AWS service that monitors EC2 instance performance in real time"],
+        "answer": "B",
+        "explanation": "A hypervisor is the software that creates and manages virtual machines on a physical host."
+      },
+      {
+        "question": "Which type of hypervisor runs directly on the physical server hardware without a host operating system underneath it?",
+        "options": ["A) Type 2 — Hosted Hypervisor", "B) Type 3 — Cloud Hypervisor", "C) Type 1 — Bare-Metal Hypervisor", "D) Type 0 — Legacy Hypervisor"],
+        "answer": "C",
+        "explanation": "Type 1 (Bare-Metal) hypervisors run directly on hardware."
+      },
+      {
+        "question": "A developer installs Oracle VirtualBox on their Windows laptop to run a Linux test environment. What type of hypervisor is VirtualBox, and what does this mean?",
+        "options": ["A) Type 1 — it runs directly on the laptop's hardware with no host OS required", "B) Type 2 — it runs as an application on top of the existing Windows operating system", "C) Type 1 — it replaces Windows and manages all hardware resources directly", "D) Type 2 — it connects remotely to AWS hardware to provision virtual machines"],
+        "answer": "B",
+        "explanation": "VirtualBox is a Type 2 hypervisor, meaning it runs on top of a host operating system."
+      },
+      {
+        "question": "What is the name of AWS's custom-built hypervisor that powers modern Amazon EC2 instances?",
+        "options": ["A) VMware ESXi", "B) Microsoft Hyper-V", "C) Xen Hypervisor", "D) AWS Nitro System"],
+        "answer": "D",
+        "explanation": "The AWS Nitro System is the custom-built Type 1 hypervisor used for modern EC2 instances."
+      },
+      {
+        "question": "When a customer launches an Amazon EC2 instance, what is that instance at its most fundamental technical level?",
+        "options": ["A) A dedicated physical server rented exclusively from AWS", "B) A software-based virtual machine created and managed by the AWS hypervisor", "C) A containerized process running inside a Docker environment", "D) A static file stored on Amazon S3 and executed on demand"],
+        "answer": "B",
+        "explanation": "An EC2 instance is a virtual machine managed by the AWS hypervisor."
+      },
+      {
+        "question": "Multiple customers' EC2 instances are running on the same physical AWS server. What technology ensures that Customer A's workload cannot access Customer B's data or memory?",
+        "options": ["A) AWS IAM permissions policies", "B) Amazon VPC network isolation", "C) The hypervisor's VM isolation enforcement", "D) AWS KMS encryption keys"],
+        "answer": "C",
+        "explanation": "The hypervisor enforces isolation between virtual machines on shared physical hardware."
+      },
+      {
+        "question": "Which of the following are TRUE about the AWS Nitro System? (Select TWO)",
+        "options": ["A) It is a Type 2 (hosted) hypervisor that runs on top of Amazon Linux", "B) It is a custom-built Type 1 (bare-metal) hypervisor developed by AWS", "C) It powers most modern Amazon EC2 instance types", "D) It was acquired by AWS from VMware in 2016", "E) Customers are required to configure and maintain the Nitro hypervisor themselves"],
+        "answer": "B, C",
+        "explanation": "The Nitro System is AWS's custom Type 1 hypervisor and powers most modern instance types.",
+        "isMultiple": true
+      },
+      {
+        "question": "Which cloud deployment model is characterized by infrastructure owned and operated by a third-party provider, delivered over the internet, and shared among multiple customers?",
+        "options": ["A) Private Cloud", "B) Hybrid Cloud", "C) Community Cloud", "D) Public Cloud"],
+        "answer": "D",
+        "explanation": "Infrastructure shared among multiple customers and delivered by a third-party provider is the Public Cloud."
+      },
+      {
+        "question": "A government agency must store all classified data within its own secured facility and cannot use shared infrastructure. Which cloud deployment model is MOST appropriate?",
+        "options": ["A) Public Cloud", "B) Hybrid Cloud", "C) Private Cloud", "D) Community Cloud"],
+        "answer": "C",
+        "explanation": "Single-tenant infrastructure owned/operated by a single organization is a Private Cloud."
+      },
+      {
+        "question": "A hospital runs its patient records system on its own on-premises servers to meet HIPAA regulations. However, it uses AWS for its appointment scheduling app, billing analytics, and disaster recovery — with AWS Direct Connect linking the two environments. What cloud model is this?",
+        "options": ["A) Public Cloud", "B) Private Cloud", "C) Community Cloud", "D) Hybrid Cloud"],
+        "answer": "D",
+        "explanation": "A mix of on-premises and public cloud resources is a Hybrid Cloud."
+      },
+      {
+        "question": "Which AWS service physically brings AWS infrastructure, services, and APIs into a customer's own on-premises data center?",
+        "options": ["A) AWS Direct Connect", "B) AWS VPN", "C) AWS Outposts", "D) AWS Storage Gateway"],
+        "answer": "C",
+        "explanation": "AWS Outposts installs AWS hardware in your on-premises facility."
+      },
+      {
+        "question": "A group of universities in the same country want to share a cloud environment for academic research, accessible only to staff and students of participating universities. Which cloud model BEST fits this scenario?",
+        "options": ["A) Public Cloud", "B) Private Cloud", "C) Hybrid Cloud", "D) Community Cloud"],
+        "answer": "D",
+        "explanation": "A cloud shared by a specific community with shared goals is a Community Cloud."
+      },
+      {
+        "question": "What is the PRIMARY advantage of a Hybrid Cloud model over using only the Public Cloud?",
+        "options": ["A) It is always cheaper than using public cloud alone", "B) It allows organizations to keep sensitive or regulated workloads on-premises while using the public cloud for scalable, flexible workloads", "C) It eliminates the need for any on-premises infrastructure", "D) It guarantees 100% uptime by combining two independent environments"],
+        "answer": "B",
+        "explanation": "Hybrid Cloud is ideal for keeping sensitive data on-premises while utilizing the public cloud for flexibility."
+      },
+      {
+        "question": "Which AWS service provides a dedicated, private network connection from a company's on-premises data center directly to AWS — bypassing the public internet entirely?",
+        "options": ["A) Amazon CloudFront", "B) AWS Direct Connect", "C) AWS Site-to-Site VPN", "D) Amazon Route 53"],
+        "answer": "B",
+        "explanation": "Direct Connect is a dedicated private physical connection that bypasses the internet."
+      },
+      {
+        "question": "A startup wants to launch a new SaaS product quickly. They need servers, storage, and networking with no upfront hardware investment, accessible from anywhere over the internet, at pay-as-you-go pricing. Which cloud deployment model should they choose?",
+        "options": ["A) Private Cloud", "B) Community Cloud", "C) Hybrid Cloud", "D) Public Cloud"],
+        "answer": "D",
+        "explanation": "Public cloud offers servers and storage with no upfront cost and pay-as-you-go pricing."
+      },
+      {
+        "question": "A company launches Amazon EC2 instances and manually installs Ubuntu Linux, Apache web server, and their custom application. Which cloud service model does this represent?",
+        "options": ["A) SaaS", "B) PaaS", "C) IaaS", "D) FaaS"],
+        "answer": "C",
+        "explanation": "Using EC2 and managing the OS yourself is Infrastructure as a Service (IaaS)."
+      },
+      {
+        "question": "A developer uploads their Python application code to AWS Elastic Beanstalk. AWS automatically handles deployment, load balancing, auto scaling, and health monitoring. The developer only manages the application code and data. Which cloud service model is this?",
+        "options": ["A) IaaS", "B) SaaS", "C) On-Premises", "D) PaaS"],
+        "answer": "D",
+        "explanation": "Elastic Beanstalk is Platform as a Service (PaaS) because the developer only manages code and data."
+      },
+      {
+        "question": "A marketing team uses Salesforce CRM through a web browser to track customer leads. They never install software, patch updates, or manage servers. Which cloud service model does Salesforce represent?",
+        "options": ["A) IaaS", "B) PaaS", "C) SaaS", "D) Hybrid"],
+        "answer": "C",
+        "explanation": "A fully managed application accessed via a browser is Software as a Service (SaaS)."
+      },
+      {
+        "question": "Which of the following statements about Amazon RDS is CORRECT regarding its cloud service model?",
+        "options": ["A) RDS is IaaS because it involves a database server managed by the customer", "B) RDS is SaaS because customers access it through a web browser", "C) RDS is PaaS because AWS manages the database engine, OS, patching, and backups", "D) RDS is IaaS because the customer must choose the database engine type"],
+        "answer": "C",
+        "explanation": "RDS is PaaS since AWS manages the database engine and underlying infrastructure."
+      },
+      {
+        "question": "Arrange the following cloud service models in order from MOST customer responsibility to LEAST customer responsibility:",
+        "options": ["A) SaaS → PaaS → IaaS", "B) IaaS → SaaS → PaaS", "C) PaaS → IaaS → SaaS", "D) IaaS → PaaS → SaaS"],
+        "answer": "D",
+        "explanation": "IaaS has the most responsibility, SaaS has the least."
+      },
+      {
+        "question": "AWS Lambda allows developers to run code without provisioning or managing any servers. AWS handles all infrastructure, scaling, and runtime. Which service model category does Lambda fall under?",
+        "options": ["A) IaaS", "B) SaaS", "C) PaaS / FaaS", "D) On-Premises"],
+        "answer": "C",
+        "explanation": "Lambda is Function as a Service (FaaS), which is a subset of PaaS."
+      },
+      {
+        "question": "A company uses three services: Amazon EC2 for web servers, Amazon DynamoDB for their database, and Microsoft Office 365 for employee email. What are the CORRECT service model classifications for each, in order?",
+        "options": ["A) IaaS, PaaS, SaaS", "B) PaaS, IaaS, SaaS", "C) IaaS, SaaS, PaaS", "D) SaaS, PaaS, IaaS"],
+        "answer": "A",
+        "explanation": "EC2 is IaaS, DynamoDB is PaaS, and Office 365 is SaaS."
+      },
+      {
+        "question": "In the IaaS model, which of the following layers is the customer responsible for managing? (Select TWO)",
+        "options": ["A) Physical server hardware", "B) The hypervisor / virtualization layer", "C) The operating system installed on the virtual machine", "D) Application code and software running on the VM", "E) The physical network switches in the data center"],
+        "answer": "C, D",
+        "explanation": "In IaaS, the customer manages the OS and any software above it.",
+        "isMultiple": true
+      },
+      {
+        "question": "How many pillars make up the AWS Well-Architected Framework?",
+        "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+        "answer": "C",
+        "explanation": "The six pillars are: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability."
+      },
+      {
+        "question": "A company's engineering team deploys all infrastructure manually through the AWS console, causing configuration drift between their staging and production environments. According to the AWS Well-Architected Framework, which pillar and design principle should they follow?",
+        "options": ["A) Reliability — 'Automatically recover from failure'", "B) Operational Excellence — 'Perform operations as code'", "C) Security — 'Automate security best practices'", "D) Cost Optimization — 'Measure overall efficiency'"],
+        "answer": "B",
+        "explanation": "Manual deployment issues are corrected by the 'Perform operations as code' principle of Operational Excellence."
+      },
+      {
+        "question": "Which pillar of the AWS Well-Architected Framework focuses on protecting data, systems, and assets — including implementing least privilege access, encrypting data in transit and at rest, and enabling audit logging?",
+        "options": ["A) Reliability", "B) Operational Excellence", "C) Performance Efficiency", "D) Security"],
+        "answer": "D",
+        "explanation": "The Security pillar focuses on protection, least privilege, and traceabilty."
+      },
+      {
+        "question": "A company's application went down for 3 hours because their primary database failed and no automatic failover was configured. The team had to manually detect and fix the issue. Which Well-Architected pillar was violated?",
+        "options": ["A) Cost Optimization", "B) Performance Efficiency", "C) Reliability", "D) Sustainability"],
+        "answer": "C",
+        "explanation": "Reliability includes the ability to automatically recover from failure."
+      },
+      {
+        "question": "Which of the following design principles belong to the Performance Efficiency pillar of the AWS Well-Architected Framework? (Select TWO)",
+        "options": ["A) Enable traceability", "B) Use serverless architectures", "C) Anticipate failure", "D) Go global in minutes", "E) Adopt a consumption model"],
+        "answer": "B, D",
+        "explanation": "'Use serverless architectures' and 'Go global in minutes' are Performance Efficiency principles.",
+        "isMultiple": true
+      },
+      {
+        "question": "A company is paying for 20 large EC2 instances but their average CPU utilization across all instances is only 6%. Their workload could easily run on 5 smaller instances. Which Well-Architected pillar MOST directly addresses this problem?",
+        "options": ["A) Security", "B) Reliability", "C) Operational Excellence", "D) Cost Optimization"],
+        "answer": "D",
+        "explanation": "Right-sizing and avoiding waste is the core of Cost Optimization."
+      },
+      {
+        "question": "Which of the following BEST describes the Sustainability pillar of the AWS Well-Architected Framework?",
+        "options": ["A) The ability to recover workloads from failure within defined time objectives", "B) The ability to run systems at the lowest possible cost without sacrificing performance", "C) Minimizing the environmental impact of cloud workloads by maximizing utilization and using energy-efficient resources", "D) Continuously improving operational processes and procedures to deliver business value"],
+        "answer": "C",
+        "explanation": "Sustainability focuses on minimizing environmental impact."
+      },
+      {
+        "question": "A cloud architect is reviewing a workload and finds the following issues. Match each issue to its correct Well-Architected pillar: (Select THREE correct pillar-issue pairs)",
+        "options": [
+          "A) Issue 1 → Security pillar ('Implement a strong identity foundation')",
+          "B) Issue 1 → Reliability pillar ('Test recovery procedures')",
+          "C) Issue 2 → Operational Excellence pillar ('Perform operations as code')",
+          "D) Issue 2 → Operational Excellence pillar ('Refine operations procedures / gain insight into operations')",
+          "E) Issue 3 → Reliability pillar ('Scale horizontally to increase availability')",
+          "F) Issue 3 → Performance Efficiency pillar ('Go global in minutes')"
+        ],
+        "answer": "A, D, E",
+        "explanation": "Issue 1 is Security (hardcoded keys), Issue 2 is Operational Excellence (lack of insight), Issue 3 is Reliability (lack of redundancy).",
+        "isMultiple": true
+      }
+    ]
+  }
+]
