@@ -27,6 +27,12 @@ const Header: React.FC = () => {
           >
             Home
           </Link>
+          <Link
+            to="/exams"
+            className="font-bold text-slate-400 hover:text-emerald-400 transition-colors no-underline text-[10px] uppercase tracking-widest"
+          >
+            Exam Samples
+          </Link>
         </nav>
       </div>
     </header>
